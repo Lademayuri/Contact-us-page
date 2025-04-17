@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+    color: #d63384;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #d63384;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #c02572;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 15px;
+    color: green;
+    display: none;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-container {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+  .reach-us {
+    
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .reach-us h3 {
+    margin-bottom: 20px;
+    color: #c02572;
+    font-size: 20px;
+  }
+  
+  .reach-us a {
+    color:#32a6fe;
+    text-decoration: none;
+  }
+  
+  .reach-us a:hover {
+    text-decoration: underline;
+  }
+  .map-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .map-box iframe {
+    
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }

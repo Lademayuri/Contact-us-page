@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Fashionista</title>
+  <link rel="stylesheet" href="Contact.CSS" />
+</head>
+<body>
+
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+    <div class="message" id="successMessage">Thank you! Your message has been sent.</div>
+  </div>
+  <div class="reach-us">
+    <h3>Reach us at:</h3>
+    <p>Email: <a href="mailto:support@fashionista.com">support@fashionista.com</a></p>
+    <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+    <p>Address: 123 Fashion Street, Style City, FL 45678</p>
+  </div>
+  
+  <div class="map-box">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086857133251!2d-122.41941628468182!3d37.7749297797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b723a2b%3A0x4b69dfb981555b8e!2sGoogle!5e0!3m2!1sen!2sin!4v1633074006957!5m2!1sen!2sin" 
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </div>
+
+
+  <script src="Contact.js"></script>
+</body>
+</html>
